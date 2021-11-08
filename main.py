@@ -72,8 +72,8 @@ def draw_move(board):
     cnt = len(free_field)
     #print(cnt)
     if cnt > 0:
-        this = randrange(cnt)
-        row, col = free_field[this]
+        random_play = randrange(cnt)
+        row, col = free_field[random_play]
         board[row][col] = 'X'
     
     
